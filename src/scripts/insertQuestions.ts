@@ -8,6 +8,7 @@ interface QuestionData {
   id: number;
   dimension: string;
   question: string;
+  explanation?: string;
 }
 
 const __filename = fileURLToPath(import.meta.url);
@@ -62,7 +63,8 @@ async function insertQuestions() {
         id: uuidv4(), // Generate a UUID for each question
         category,
         text: q.question,
-        reverse_scored: false // Default to false, you can modify this based on your needs
+        reverse_scored: false, // Default to false, you can modify this based on your needs
+        explanation: q.explanation || null,
       };
     });
 

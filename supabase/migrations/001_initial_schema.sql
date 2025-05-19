@@ -24,7 +24,8 @@ create table if not exists public.eq_questions (
   id serial primary key,
   dimension eq_dimension not null,
   question text not null,
-  created_at timestamp with time zone default timezone('utc'::text, now()) not null
+  created_at timestamp with time zone default timezone('utc'::text, now()) not null,
+  explanation text
 );
 
 create table if not exists public.eq_test_sessions (

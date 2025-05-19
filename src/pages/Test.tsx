@@ -5,11 +5,11 @@ import { useStore } from '../store';
 import type { EQQuestion, EQResponse } from '../types';
 
 const LIKERT_OPTIONS = [
-  { value: 1, label: 'Strongly Disagree' },
-  { value: 2, label: 'Disagree' },
+  { value: 1, label: 'Rarely' },
+  { value: 2, label: 'Occasionally' },
   { value: 3, label: 'Neutral' },
-  { value: 4, label: 'Agree' },
-  { value: 5, label: 'Strongly Agree' },
+  { value: 4, label: 'Usually Yes' },
+  { value: 5, label: 'Always' },
 ];
 
 export default function Test() {
@@ -134,7 +134,7 @@ export default function Test() {
         <div className="mb-8">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-semibold text-gray-700">
-              Question {test.currentQuestionIndex + 1} of {test.questions.length}
+              <span role="img" aria-label="smile">😊</span> Question {test.currentQuestionIndex + 1} of {test.questions.length}
             </h2>
             <span className="text-sm text-gray-500">
               {Math.round((test.currentQuestionIndex / test.questions.length) * 100)}%
@@ -151,7 +151,13 @@ export default function Test() {
           </div>
         </div>
 
-        <h3 className="text-xl font-medium text-gray-800 mb-8">{currentQuestion.text}</h3>
+        <h3 className="text-xl font-medium text-gray-800 mb-4">{currentQuestion.text}</h3>
+        {currentQuestion.explanation && (
+          <div className="mb-8 text-gray-600 flex items-start gap-2">
+            <span role="img" aria-label="lightbulb">💡</span>
+            <span>{currentQuestion.explanation}</span>
+          </div>
+        )}
 
         <div className="space-y-3">
           {LIKERT_OPTIONS.map((option) => (

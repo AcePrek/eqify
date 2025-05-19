@@ -2,251 +2,301 @@
   {
     "id": 1,
     "dimension": "Self-Awareness",
-    "question": "I am aware of my emotions as I experience them."
+    "question": "I am aware of my emotions as I experience them.",
+    "explanation": "For example, you notice when you start to feel anxious, excited, or frustrated during a meeting or conversation."
   },
   {
     "id": 2,
     "dimension": "Self-Awareness",
-    "question": "I can identify the triggers that cause me to feel certain emotions."
+    "question": "I can identify the triggers that cause me to feel certain emotions.",
+    "explanation": "For example, you realize that you get frustrated when plans change suddenly or feel happy when you receive praise."
   },
   {
     "id": 3,
     "dimension": "Self-Awareness",
-    "question": "I understand how my emotions influence my behavior."
+    "question": "I understand how my emotions influence my behavior.",
+    "explanation": "For example, you notice that feeling stressed makes you more impatient with others or that excitement makes you more talkative."
   },
   {
     "id": 4,
     "dimension": "Self-Awareness",
-    "question": "I recognize how my emotions affect those around me."
+    "question": "I recognize how my emotions affect those around me.",
+    "explanation": "For example, you notice that your frustration can make your team anxious or your enthusiasm can motivate others."
   },
   {
     "id": 5,
     "dimension": "Self-Awareness",
-    "question": "I can distinguish between different emotions I feel."
+    "question": "I can distinguish between different emotions I feel.",
+    "explanation": "For example, you can tell the difference between feeling anxious and feeling excited, or between sadness and disappointment."
   },
   {
     "id": 6,
     "dimension": "Self-Awareness",
-    "question": "I reflect on my emotional responses to situations."
+    "question": "I reflect on my emotional responses to situations.",
+    "explanation": "For example, after a heated discussion, you think about why you reacted the way you did."
   },
   {
     "id": 7,
     "dimension": "Self-Awareness",
-    "question": "I am conscious of my strengths and weaknesses."
+    "question": "I am conscious of my strengths and weaknesses.",
+    "explanation": "For example, you know you are good at staying calm but sometimes struggle with time management."
   },
   {
     "id": 8,
     "dimension": "Self-Awareness",
-    "question": "I seek feedback to understand how others perceive me."
+    "question": "I seek feedback to understand how others perceive me.",
+    "explanation": "For example, you ask colleagues for feedback on your communication style or leadership."
   },
   {
     "id": 9,
     "dimension": "Self-Awareness",
-    "question": "I am aware of my values and goals."
+    "question": "I am aware of my values and goals.",
+    "explanation": "For example, you know what is most important to you at work and in life, and you set goals based on those values."
   },
   {
     "id": 10,
     "dimension": "Self-Awareness",
-    "question": "I understand the impact of my mood on my performance."
+    "question": "I understand the impact of my mood on my performance.",
+    "explanation": "For example, you notice that being in a good mood helps you focus, while being upset makes it harder to concentrate."
   },
   {
     "id": 11,
     "dimension": "Self-Regulation",
-    "question": "I stay calm under pressure."
+    "question": "I stay calm under pressure.",
+    "explanation": "For example, when deadlines are tight, you remain composed and focused instead of panicking."
   },
   {
     "id": 12,
     "dimension": "Self-Regulation",
-    "question": "I manage my emotions effectively in difficult situations."
+    "question": "I manage my emotions effectively in difficult situations.",
+    "explanation": "For example, you keep your cool and respond thoughtfully when someone criticizes your work."
   },
   {
     "id": 13,
     "dimension": "Self-Regulation",
-    "question": "I think before I act when upset."
+    "question": "I think before I act when upset.",
+    "explanation": "For example, you pause and consider your response before replying to an upsetting email."
   },
   {
     "id": 14,
     "dimension": "Self-Regulation",
-    "question": "I adapt well to change."
+    "question": "I adapt well to change.",
+    "explanation": "For example, when your team changes direction, you adjust your plans and stay positive."
   },
   {
     "id": 15,
     "dimension": "Self-Regulation",
-    "question": "I handle stress without losing control."
+    "question": "I handle stress without losing control.",
+    "explanation": "For example, during a crisis, you stay focused and avoid snapping at others."
   },
   {
     "id": 16,
     "dimension": "Self-Regulation",
-    "question": "I avoid impulsive decisions."
+    "question": "I avoid impulsive decisions.",
+    "explanation": "For example, you take time to think things through before making important choices, even when you feel pressured."
   },
   {
     "id": 17,
     "dimension": "Self-Regulation",
-    "question": "I maintain composure during conflicts."
+    "question": "I maintain composure during conflicts.",
+    "explanation": "For example, you stay calm and listen during arguments instead of raising your voice."
   },
   {
     "id": 18,
     "dimension": "Self-Regulation",
-    "question": "I take responsibility for my actions."
+    "question": "I take responsibility for my actions.",
+    "explanation": "For example, if you make a mistake, you admit it and work to fix it."
   },
   {
     "id": 19,
     "dimension": "Self-Regulation",
-    "question": "I remain positive even when things go wrong."
+    "question": "I remain positive even when things go wrong.",
+    "explanation": "For example, when a project fails, you focus on what you can learn and how to improve next time."
   },
   {
     "id": 20,
     "dimension": "Self-Regulation",
-    "question": "I control my emotional reactions in challenging circumstances."
+    "question": "I control my emotional reactions in challenging circumstances.",
+    "explanation": "For example, you avoid lashing out or shutting down when faced with criticism or setbacks."
   },
   {
     "id": 21,
     "dimension": "Motivation",
-    "question": "I set personal goals and work diligently to achieve them."
+    "question": "I set personal goals and work diligently to achieve them.",
+    "explanation": "For example, you create a plan to learn a new skill and follow through until you succeed."
   },
   {
     "id": 22,
     "dimension": "Motivation",
-    "question": "I am driven to succeed beyond external rewards."
+    "question": "I am driven to succeed beyond external rewards.",
+    "explanation": "For example, you work hard because you enjoy learning and growing, not just for praise or money."
   },
   {
     "id": 23,
     "dimension": "Motivation",
-    "question": "I remain optimistic despite setbacks."
+    "question": "I remain optimistic despite setbacks.",
+    "explanation": "For example, when you face obstacles, you believe you can overcome them and keep trying."
   },
   {
     "id": 24,
     "dimension": "Motivation",
-    "question": "I take initiative to improve my performance."
+    "question": "I take initiative to improve my performance.",
+    "explanation": "For example, you seek out feedback and look for ways to do your job better."
   },
   {
     "id": 25,
     "dimension": "Motivation",
-    "question": "I am committed to my personal and professional growth."
+    "question": "I am committed to my personal and professional growth.",
+    "explanation": "For example, you regularly set new goals for yourself and pursue learning opportunities."
   },
   {
     "id": 26,
     "dimension": "Motivation",
-    "question": "I find purpose in my work."
+    "question": "I find purpose in my work.",
+    "explanation": "For example, you feel your job is meaningful and aligns with your values."
   },
   {
     "id": 27,
     "dimension": "Motivation",
-    "question": "I am passionate about what I do."
+    "question": "I am passionate about what I do.",
+    "explanation": "For example, you feel excited and energized by your work or hobbies."
   },
   {
     "id": 28,
     "dimension": "Motivation",
-    "question": "I strive to exceed expectations."
+    "question": "I strive to exceed expectations.",
+    "explanation": "For example, you go above and beyond what is required in your projects or tasks."
   },
   {
     "id": 29,
     "dimension": "Motivation",
-    "question": "I persist in the face of obstacles."
+    "question": "I persist in the face of obstacles.",
+    "explanation": "For example, you keep working toward your goals even when things get tough."
   },
   {
     "id": 30,
     "dimension": "Motivation",
-    "question": "I seek out new challenges to develop my skills."
+    "question": "I seek out new challenges to develop my skills.",
+    "explanation": "For example, you volunteer for new projects or try to learn something outside your comfort zone."
   },
   {
     "id": 31,
     "dimension": "Empathy",
-    "question": "I understand how others feel even when they don't express it directly."
+    "question": "I understand how others feel even when they don't express it directly.",
+    "explanation": "For example, you can tell when a friend is upset even if they haven't said anything."
   },
   {
     "id": 32,
     "dimension": "Empathy",
-    "question": "I listen attentively to others' perspectives."
+    "question": "I listen attentively to others' perspectives.",
+    "explanation": "For example, you give your full attention when someone is sharing their thoughts or feelings."
   },
   {
     "id": 33,
     "dimension": "Empathy",
-    "question": "I can sense the emotional climate of a group."
+    "question": "I can sense the emotional climate of a group.",
+    "explanation": "For example, you notice when a team is tense or when everyone is excited about a new idea."
   },
   {
     "id": 34,
     "dimension": "Empathy",
-    "question": "I am sensitive to the feelings of others."
+    "question": "I am sensitive to the feelings of others.",
+    "explanation": "For example, you notice when someone is feeling left out and try to include them."
   },
   {
     "id": 35,
     "dimension": "Empathy",
-    "question": "I respond appropriately to others' emotions."
+    "question": "I respond appropriately to others' emotions.",
+    "explanation": "For example, you offer support when a friend is sad or celebrate with them when they're happy."
   },
   {
     "id": 36,
     "dimension": "Empathy",
-    "question": "I recognize non-verbal cues indicating how someone feels."
+    "question": "I recognize non-verbal cues indicating how someone feels.",
+    "explanation": "For example, you notice when someone is frowning or avoiding eye contact and check in with them."
   },
   {
     "id": 37,
     "dimension": "Empathy",
-    "question": "I show compassion towards others."
+    "question": "I show compassion towards others.",
+    "explanation": "For example, you offer help to someone who is struggling or listen when someone needs to talk."
   },
   {
     "id": 38,
     "dimension": "Empathy",
-    "question": "I consider others' feelings when making decisions."
+    "question": "I consider others' feelings when making decisions.",
+    "explanation": "For example, you think about how your choices will affect your team or family."
   },
   {
     "id": 39,
     "dimension": "Empathy",
-    "question": "I am aware of cultural differences in emotional expression."
+    "question": "I am aware of cultural differences in emotional expression.",
+    "explanation": "For example, you understand that people from different backgrounds may show emotions in different ways."
   },
   {
     "id": 40,
     "dimension": "Empathy",
-    "question": "I validate others' emotions during conversations."
+    "question": "I validate others' emotions during conversations.",
+    "explanation": "For example, you say things like 'I understand why you feel that way' when someone shares their feelings."
   },
   {
     "id": 41,
     "dimension": "Social Skills",
-    "question": "I build rapport easily with others."
+    "question": "I build rapport easily with others.",
+    "explanation": "For example, you quickly find common ground and make people feel comfortable in new situations."
   },
   {
     "id": 42,
     "dimension": "Social Skills",
-    "question": "I communicate effectively in diverse situations."
+    "question": "I communicate effectively in diverse situations.",
+    "explanation": "For example, you adjust your communication style when talking to different people or in different settings."
   },
   {
     "id": 43,
     "dimension": "Social Skills",
-    "question": "I manage conflicts constructively."
+    "question": "I manage conflicts constructively.",
+    "explanation": "For example, you help resolve disagreements by listening to all sides and finding solutions."
   },
   {
     "id": 44,
     "dimension": "Social Skills",
-    "question": "I inspire and motivate others."
+    "question": "I inspire and motivate others.",
+    "explanation": "For example, you encourage your team to do their best and help them stay positive."
   },
   {
     "id": 45,
     "dimension": "Social Skills",
-    "question": "I work well in teams."
+    "question": "I work well in teams.",
+    "explanation": "For example, you collaborate with others, share ideas, and support your teammates."
   },
   {
     "id": 46,
     "dimension": "Social Skills",
-    "question": "I influence others positively."
+    "question": "I influence others positively.",
+    "explanation": "For example, your attitude or actions encourage others to be more productive or optimistic."
   },
   {
     "id": 47,
     "dimension": "Social Skills",
-    "question": "I provide constructive feedback."
+    "question": "I provide constructive feedback.",
+    "explanation": "For example, when a teammate makes a mistake, you offer helpful suggestions for improvement rather than just criticism."
   },
   {
     "id": 48,
     "dimension": "Social Skills",
-    "question": "I navigate social situations with ease."
+    "question": "I navigate social situations with ease.",
+    "explanation": "For example, you feel comfortable meeting new people or handling group conversations."
   },
   {
     "id": 49,
     "dimension": "Social Skills",
-    "question": "I foster strong relationships with colleagues."
+    "question": "I foster strong relationships with colleagues.",
+    "explanation": "For example, you build trust and maintain good working relationships with your coworkers."
   },
   {
     "id": 50,
     "dimension": "Social Skills",
-    "question": "I lead by example in group settings."
+    "question": "I lead by example in group settings.",
+    "explanation": "For example, you demonstrate the behavior you expect from others, such as being punctual or respectful."
   }
 ]

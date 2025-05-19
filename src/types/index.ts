@@ -33,6 +33,7 @@ export interface EQQuestion {
   category: 'self_awareness' | 'self_management' | 'social_awareness' | 'relationship_management';
   text: string;
   reverse_scored?: boolean;
+  explanation?: string;
 }
 
 export interface EQResponse {
