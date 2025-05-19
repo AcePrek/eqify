@@ -1,4 +1,5 @@
 import type { EQDimension, Question, TestResponse } from '../types';
+import type { EQQuestion, EQResponse, EQResults } from '../types';
 
 // Calculate normalized score for a dimension
 export const calculateDimensionScore = (
@@ -38,4 +39,99 @@ export const determineEQLabel = (dimensionScores: Record<EQDimension, number>): 
   };
 
   return labels[highestDimension];
+};
+
+const calculateCategoryScore = (
+  responses: EQResponse[],
+  questions: EQQuestion[],
+  category: EQQuestion['category']
+): number => {
+  console.log(`\nCalculating score for category: ${category}`);
+  const categoryQuestions = questions.filter((q) => q.category === category);
+  console.log('Questions for category:', categoryQuestions);
+  
+  const categoryResponses = responses.filter((r) =>
+    categoryQuestions.some((q) => q.id === r.questionId)
+  );
+  console.log('Responses for category:', categoryResponses);
+
+  if (categoryResponses.length === 0) {
+    console.log('No responses found for category');
+    return 0;
+  }
+
+  const total = categoryResponses.reduce((sum, response) => {
+    const question = questions.find((q) => q.id === response.questionId);
+    if (!question) {
+      console.log('Question not found for response:', response);
+      return sum;
+    }
+
+    // For reverse scored questions, invert the score (1 becomes 5, 2 becomes 4, etc.)
+    const score = question.reverse_scored
+      ? 6 - response.response
+      : response.response;
+
+    console.log(`Response for question "${question.text}":`, {
+      questionId: response.questionId,
+      originalResponse: response.response,
+      reverseScored: question.reverse_scored,
+      finalScore: score
+    });
+
+    return sum + score;
+  }, 0);
+
+  const maxPossibleScore = categoryResponses.length * 5;
+  const finalScore = (total / maxPossibleScore) * 100;
+  
+  console.log('Category score calculation:', {
+    category,
+    total,
+    responses: categoryResponses.length,
+    maxPossibleScore,
+    finalScore
+  });
+
+  return finalScore;
+};
+
+export const calculateEQScores = (
+  responses: EQResponse[],
+  questions: EQQuestion[]
+): EQResults => {
+  console.log('\nCalculating EQ scores');
+  console.log('Total responses:', responses?.length);
+  console.log('Total questions:', questions?.length);
+  console.log('Response data:', responses);
+  console.log('Questions data:', questions);
+
+  const categories = {
+    self_awareness: calculateCategoryScore(responses, questions, 'self_awareness'),
+    self_management: calculateCategoryScore(responses, questions, 'self_management'),
+    social_awareness: calculateCategoryScore(responses, questions, 'social_awareness'),
+    relationship_management: calculateCategoryScore(
+      responses,
+      questions,
+      'relationship_management'
+    ),
+  };
+
+  const categoryScores = Object.values(categories);
+  const validScores = categoryScores.filter(score => score > 0);
+  const overall = validScores.length > 0
+    ? validScores.reduce((sum, score) => sum + score, 0) / validScores.length
+    : 0;
+
+  console.log('Final calculation:', {
+    categories,
+    categoryScores,
+    validScores,
+    overall
+  });
+
+  return {
+    overall,
+    categories,
+  };
 }; 

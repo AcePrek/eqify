@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "dimension": "Self-Awareness",
+    "question": "I am aware of my emotions as I experience them."
+  },
+  {
+    "id": 2,
+    "dimension": "Self-Awareness",
+    "question": "I can identify the triggers that cause me to feel certain emotions."
+  },
+  {
+    "id": 3,
+    "dimension": "Self-Awareness",
+    "question": "I understand how my emotions influence my behavior."
+  },
+  {
+    "id": 4,
+    "dimension": "Self-Awareness",
+    "question": "I recognize how my emotions affect those around me."
+  },
+  {
+    "id": 5,
+    "dimension": "Self-Awareness",
+    "question": "I can distinguish between different emotions I feel."
+  },
+  {
+    "id": 6,
+    "dimension": "Self-Awareness",
+    "question": "I reflect on my emotional responses to situations."
+  },
+  {
+    "id": 7,
+    "dimension": "Self-Awareness",
+    "question": "I am conscious of my strengths and weaknesses."
+  },
+  {
+    "id": 8,
+    "dimension": "Self-Awareness",
+    "question": "I seek feedback to understand how others perceive me."
+  },
+  {
+    "id": 9,
+    "dimension": "Self-Awareness",
+    "question": "I am aware of my values and goals."
+  },
+  {
+    "id": 10,
+    "dimension": "Self-Awareness",
+    "question": "I understand the impact of my mood on my performance."
+  },
+  {
+    "id": 11,
+    "dimension": "Self-Regulation",
+    "question": "I stay calm under pressure."
+  },
+  {
+    "id": 12,
+    "dimension": "Self-Regulation",
+    "question": "I manage my emotions effectively in difficult situations."
+  },
+  {
+    "id": 13,
+    "dimension": "Self-Regulation",
+    "question": "I think before I act when upset."
+  },
+  {
+    "id": 14,
+    "dimension": "Self-Regulation",
+    "question": "I adapt well to change."
+  },
+  {
+    "id": 15,
+    "dimension": "Self-Regulation",
+    "question": "I handle stress without losing control."
+  },
+  {
+    "id": 16,
+    "dimension": "Self-Regulation",
+    "question": "I avoid impulsive decisions."
+  },
+  {
+    "id": 17,
+    "dimension": "Self-Regulation",
+    "question": "I maintain composure during conflicts."
+  },
+  {
+    "id": 18,
+    "dimension": "Self-Regulation",
+    "question": "I take responsibility for my actions."
+  },
+  {
+    "id": 19,
+    "dimension": "Self-Regulation",
+    "question": "I remain positive even when things go wrong."
+  },
+  {
+    "id": 20,
+    "dimension": "Self-Regulation",
+    "question": "I control my emotional reactions in challenging circumstances."
+  },
+  {
+    "id": 21,
+    "dimension": "Motivation",
+    "question": "I set personal goals and work diligently to achieve them."
+  },
+  {
+    "id": 22,
+    "dimension": "Motivation",
+    "question": "I am driven to succeed beyond external rewards."
+  },
+  {
+    "id": 23,
+    "dimension": "Motivation",
+    "question": "I remain optimistic despite setbacks."
+  },
+  {
+    "id": 24,
+    "dimension": "Motivation",
+    "question": "I take initiative to improve my performance."
+  },
+  {
+    "id": 25,
+    "dimension": "Motivation",
+    "question": "I am committed to my personal and professional growth."
+  },
+  {
+    "id": 26,
+    "dimension": "Motivation",
+    "question": "I find purpose in my work."
+  },
+  {
+    "id": 27,
+    "dimension": "Motivation",
+    "question": "I am passionate about what I do."
+  },
+  {
+    "id": 28,
+    "dimension": "Motivation",
+    "question": "I strive to exceed expectations."
+  },
+  {
+    "id": 29,
+    "dimension": "Motivation",
+    "question": "I persist in the face of obstacles."
+  },
+  {
+    "id": 30,
+    "dimension": "Motivation",
+    "question": "I seek out new challenges to develop my skills."
+  },
+  {
+    "id": 31,
+    "dimension": "Empathy",
+    "question": "I understand how others feel even when they don't express it directly."
+  },
+  {
+    "id": 32,
+    "dimension": "Empathy",
+    "question": "I listen attentively to others' perspectives."
+  },
+  {
+    "id": 33,
+    "dimension": "Empathy",
+    "question": "I can sense the emotional climate of a group."
+  },
+  {
+    "id": 34,
+    "dimension": "Empathy",
+    "question": "I am sensitive to the feelings of others."
+  },
+  {
+    "id": 35,
+    "dimension": "Empathy",
+    "question": "I respond appropriately to others' emotions."
+  },
+  {
+    "id": 36,
+    "dimension": "Empathy",
+    "question": "I recognize non-verbal cues indicating how someone feels."
+  },
+  {
+    "id": 37,
+    "dimension": "Empathy",
+    "question": "I show compassion towards others."
+  },
+  {
+    "id": 38,
+    "dimension": "Empathy",
+    "question": "I consider others' feelings when making decisions."
+  },
+  {
+    "id": 39,
+    "dimension": "Empathy",
+    "question": "I am aware of cultural differences in emotional expression."
+  },
+  {
+    "id": 40,
+    "dimension": "Empathy",
+    "question": "I validate others' emotions during conversations."
+  },
+  {
+    "id": 41,
+    "dimension": "Social Skills",
+    "question": "I build rapport easily with others."
+  },
+  {
+    "id": 42,
+    "dimension": "Social Skills",
+    "question": "I communicate effectively in diverse situations."
+  },
+  {
+    "id": 43,
+    "dimension": "Social Skills",
+    "question": "I manage conflicts constructively."
+  },
+  {
+    "id": 44,
+    "dimension": "Social Skills",
+    "question": "I inspire and motivate others."
+  },
+  {
+    "id": 45,
+    "dimension": "Social Skills",
+    "question": "I work well in teams."
+  },
+  {
+    "id": 46,
+    "dimension": "Social Skills",
+    "question": "I influence others positively."
+  },
+  {
+    "id": 47,
+    "dimension": "Social Skills",
+    "question": "I provide constructive feedback."
+  },
+  {
+    "id": 48,
+    "dimension": "Social Skills",
+    "question": "I navigate social situations with ease."
+  },
+  {
+    "id": 49,
+    "dimension": "Social Skills",
+    "question": "I foster strong relationships with colleagues."
+  },
+  {
+    "id": 50,
+    "dimension": "Social Skills",
+    "question": "I lead by example in group settings."
+  }
+]
